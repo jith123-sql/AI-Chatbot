@@ -1,0 +1,4 @@
+streamlit # for creating the web interface
+python-dotenv # for loading environment variables from a .env file
+langchain-community # for community-driven language model integration
+langchain-groq # for Groq API integration 
