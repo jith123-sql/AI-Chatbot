@@ -5,18 +5,20 @@ import pandas as pd
 import pickle
 import tensorflow as tf
 
+BASE_DIR = Path(__file__).resolve().parent
+
 # load the model
 model = tf.keras.models.load_model('ANN_Project/chrurn_model.h5')
 
 
 # load all encoders and scaler
-with open('onehot_encoder_geo.pkl', 'rb') as file:
+with open(BASE_DIR / 'onehot_encoder_geo.pkl', 'rb') as file:
     onehot_encoder_geo = pickle.load(file)
 
-with open('label_encoder_gender.pkl', 'rb') as file:
+with open(BASE_DIR / 'label_encoder_gender.pkl', 'rb') as file:
     label_encoder_gender = pickle.load(file)
 
-with open('scaler.pkl', 'rb') as file:
+with open(BASE_DIR / 'scaler.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
 
