@@ -1,4 +1,8 @@
-streamlit # for creating the web interface
-python-dotenv # for loading environment variables from a .env file
-langchain-community # for community-driven language model integration
-langchain-groq # for Groq API integration 
+nltk #for ML
+pandas
+tensorflow == 2.21.0
+numpy
+scikit-learn
+tensorboard
+matplotlib
+streamlit
