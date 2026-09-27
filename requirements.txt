@@ -1,6 +1,6 @@
-nltk #for ML
+nltk
 pandas
-tensorflow == 2.21.0
+tensorflow==2.21.0
 numpy
 scikit-learn
 tensorboard
