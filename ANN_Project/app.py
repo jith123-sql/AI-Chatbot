@@ -6,7 +6,7 @@ import pickle
 import tensorflow as tf
 
 # load the model
-model = tf.keras.models.load_model('chrurn_model.h5')
+model = tf.keras.models.load_model('ANN_Project/chrurn_model.h5')
 
 
 # load all encoders and scaler
